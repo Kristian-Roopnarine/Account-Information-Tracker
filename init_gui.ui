@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>10</y>
+      <width>401</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>399</width>
+       <height>539</height>
+      </rect>
+     </property>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>-5</x>
+        <y>-9</y>
+        <width>391</width>
+        <height>551</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="usernameEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="websiteEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="passwordEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submitButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="username">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>40</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="password">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>100</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="websites">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>160</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Website/App</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
